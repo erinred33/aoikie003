@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>i-know-a-place</title>
+        <link rel="stylesheet" href="aboutyou.css">
+        <script>
+            function checkPassword() {
+                var password = document.getElementById("password").value;
+                if (password === "SKY BLUE") { // grabe nag inspect ka talaga para maaraman password. limot mo na talaga aque (ノへ￣、) 
+                    // inside here is the unedited version of the message, i kept them as comments, but u should read what's on display first, then go back here if you want to read them.-->
+                    document.getElementById("correctSound").play();
+                    document.getElementById("password-form-container").style.display = "none";
+                    document.getElementById("content").style.display = "block";
+                    return false;
+                } else if (password === "BLUE") {
+                    alert("uhh no...");
+                    return false;
+                } else {
+                    alert("Incorrect password. Please try again.");
+                    return false;
+                } 
+            } 
+        </script>
+    </head>
+    <body>
+        <audio id="correctSound" loop>
+            <source src="correct.mp3" type="audio/mpeg">
+        </audio>
+        <div id="password-form-container" class="password-form-container">
+            <div class="password-form">
+                <form onsubmit="return checkPassword()">
+                    <label for="password" class="password-label">Hint: color of my bike (capslock)</label>
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Enter password">
+                        <input type="submit" value="Submit" class="submit-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="content" style="display:none;">
+            <p class="message">Happy birthday!
+                    <br>
+                    <br>
+                    This greeting is worth a thousand more. I won't be greeting you next year or the year after...unless the Universe would have us meet again for the plot (￣﹏￣；) I don't wanna feel like we are intruding each other's life every year. 
+                    Feels like we're screaming these greetings while standing on a pile of crumpled papers—the bones and remains of our unspoken words. But I don't think I am standing on a large pile here. 
+                    I've already said what I needed to say in my last letter. There's little left to clean up but I'll say this again because this will always be true...
+                    <br>
+                    <br>
+                    Despite all that has happened, I still consider you as my friend. What we have and what still persists, is a mutually shared care for each other—silence doesn't make it any less real. <!--Thank you for your sympathy regarding my papa's death btw. Still grieving dude, i wish his passing 
+                    was funny af like ur grandfather's, I wouldve preferred it that way (sumalangit sila nawa)-->You'll always have me, this promise is both true and void. 
+                    I am sure, before you decide to press that call or send button, shyness has already taken over you. And I could say the same thing for me because time will cripple us both.  
+                    Over time, my love for you grew. I say this with no romantic undertones, but grounded upon an abiding inexplicable care for this fellow human being walking this planet in a meat suit. And know that somewhere, you lie deep in my unconscious mind. 
+                    I'm talking in fables here (I've read a lot of Carl Jung kaya <!--bro no shit. I had a dream abt u once. Naka bob cut ka dora style with side bangs and your hair was dyed pink😭😭😭😭 it looked good, give it a try HAHAHAHAHA im just teasing you. despite the weirdness, the jungian interpretation resonated with me (i use chatgpt propmts. try this one: interpret this dream using jungian analysis [insert your dream]) 
+                    i wont tell the full context of the dream hahaha-->), 
+                    what I mean is: I'll always care for you, in ways I know how.
+                    <br> 
+                    <br>
+                    You're 20 na (I hope I calculated your age right. If I am wrong, you can forget that I ever existed), let me give you a heads up. <!--hey im not that old and wise ha, take everything with a grain of salt-->
+                    A huge slice of your identity and personality is chopped off when Change comes. It's like, she wants you to rebuild yourself
+                    from the ground up without somebody else's input, and this time you get to customize yourself after you'd plunge yourself into the purifying hell hole. My advice, if you are experiencing such turbulence, is do nothing about it. 
+                    It's not synonymous with doing nothing with your life to contain the pressure. Just make room for change to happen, it'll direct your life tragically and magically. <a href="https://www.goodreads.com/quotes/810649-get-scared-it-will-do-you-good-smoke-a-bit" target="_blank"> "...do poetical justice to your soul and simply experience yourself." </a>
+                    <br>
+                    <br>
+                    Be careful, though. Self-actualization is a noble pursuit, only if the Universe asks it of you and permits you to. I made some mistakes recently, the previous paragraph was
+                    the lesson I got from it hahaha. Basically, what I did was shove Change into the room, and force her to do her work intensely. In effect, it took the parts of me that I was meant to keep and nurture, leaving me feeling disheveled and somehow lonely. <!--
+                    I never imagined that the people closest to me would feel less like a home now. You never see it coming when you're about to outgrow a person. Maybe the thought of it scared you once or a couple of times but you never exactly know "when" it will hit, it could be in the middle of a conversation or a laugh, or you just wake up one day and realize you want more than this, you want new people, you enjoy 
+                    different things now and the common ground you used to stand alongside them has crumbled. And you don't know whether to treat it as a threat to the relationship or as a signal to ride the chariot of change. It can be confusing at first, but sometimes, if you stick around long enough to allow change to do its thing, you'll find a grey area and whatever rearrangements it may bring, you have to respect it. 
+                    Mourn. Then muster up the courage to fight for your current reality instead of being anchored to what was. And learn to integrate the budding aspects of who you are becoming into your external environment. -->
+                    Of course, you are supposed to feel like that when you are finally stepping into the uknown but some parts of you aren't meant to leave (maybe just yet). You miss out on a lot of pretty important realizations when you are always hasty to move things around. These realizations are often things we repeatedly silence when they start to contradict our default programming—the way things currently are.
+                    And you need them as point of reference. If you rush the process of change, you'll have a looser grasp in undertanding why it was needed to happen in the first place. Your "whys" will serve as a metric for reflection, without them you'll feel lost. That's a recipe for misery.
+                    <br>
+                    <br> 
+                    But how do you actually know if change is knocking at your door and you are not resisting life's flow? The answer is quite simple: you begin to feel your life shrinking and you hear her call. Imagine Change personified and reciting the poem
+                    "i don't want to live a small life" by Mary Oliver to you. But if you are the hard-headed type, she'll bang at the door and scream <a href="https://www.goodreads.com/quotes/498674-you-sensed-that-you-should-be-following-a-different-path" target="_blank">"You sensed that you should be following a different path..."</a>. What you hear depends on how open your ears are.
+                    <br>
+                    <br>
+                    That's all the nuggets of wisdom I can share for now. Welcome to the club! If you have time, read The Defining Decades by Meg Jay, great book and very timely.
+                    <br>
+                    <br>
+                    Well, this letter is getting longer than I intended. I made this website myself btw...(～￣▽￣)～...okay okay I may have used some AI magic here <(＿　＿)>. What a way to exit on someone's life, right? 
+                    Change is after my ass and upon reading the situation, I think this is what she requires. I decided to do it formally and maturely. Though this isn't going to be the last we'll hear about each other 
+                    (it's not like I live in a Tibetan mountain practicing to be a monk or something). Spiral dynamics teaches that, we continually loop back on the things we thought we understand and see deeper truths (check it out it's cool!).
+                    We never know when we'll loop back, how, and why. So this is my way of ironing things out.<!--speaking of ironing things out, I'm still pissed sa "none of this is about you" that was a huge blow on my ego. You think u got ur way around it ha? no dipshit.~(>_<。)＼ 
+                    i took pride in that playlist being abt me ( ˘︹˘ ), naging inside joke mi na yun kang saro kong friend (my only confidante) every time na we are overthinking what someone said or did HAHAHA we would say "uyy none of that is about you" HAHAHA funny af never gets old. 
+                    no amount of ironing from you can compensate for the damage, sam /(ㄒoㄒ)/~~ HAHAHA di man just kidding-->
+                    <br>
+                    <br>
+                    Good luck in life<!--my only regret, is that i never tried 🍃 with you, that wouldve been dope.-->, sam. On a more personal note: you have a lot of potential. I hope I am not the only one who sees that in you. 
+                    <br>
+                    <br>
+                    Happy birthday again. <!--and quit smoking and drinking, dude. seriously, that's like deep frying your lungs and brains. one of my friends from home almost died dahil dyan, dai na mahiling yung lungs niya sa x-ray bc panuon daa na tubig 😭😭😭 he's recovering na, and papa as you know is with papa jc na. so quit that shit. 
+                    Pero bahala ka, buhay mo man an, li-guka saka yopyopa pa yaan (i am nagging at you in our dialect) -->
+                    <br>
+                    <br>
+                    — red 
+                    <!--can u read the comments ba sa code? okie lang if u didn't got to read them. their purpose is to give context to what im yapping about, not really that important. I took them out bc I really dont wanna make the message too long. 
+                    Honestly, i prefer this one with all the lighthearted comments than the one on display, these are the things i really wanted to say, stripped of all the formalities. i'll single out the "quit smoking and drinking" part, imagine me waving my hands around dramatically with that one. 
+                    put "🤸‍♀️" at the end kang reply mo if u got to read this, but i would actually prefer if dai kana mag reply na halabaon, a simple thank you will do🤸‍♀️ but that would be unfair. i remember you were supposed to give me a letter.
+                    I dont wanna take away the window of opportunity for you to clear out your "things i wish i said" list bc fck it, we're gonna die one day. let us both do our soul poetical justice. -->
+
+</html>
